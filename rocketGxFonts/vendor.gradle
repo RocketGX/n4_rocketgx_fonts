@@ -1,0 +1,9 @@
+/*
+ * Copyright 2022 rocketGX, All Rights Reserved.
+ */
+/* Vendor Configuration File */
+group = 'bfm'
+
+def moduleVersion = '1.0'
+def moduleVersionPatch = [:]
+version = "${moduleVersion}${moduleVersionPatch.get(project.name, '')}"

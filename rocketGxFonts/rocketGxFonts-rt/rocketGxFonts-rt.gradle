@@ -1,0 +1,27 @@
+/* Module Build File */
+
+description     = "Custom RocketGx Fonts"
+ext {
+}
+niagaraModule {
+  moduleName = "rocketGxFonts"
+  preferredSymbol = "rgf"
+  runtimeProfile = "rt"
+}
+
+dependencies {
+  compile "Tridium:nre:4.9"
+  compile "Tridium:baja:4.9"
+}
+
+jar {
+  from('src') {
+    include 'microFont/'
+    include 'microFont/*.*'
+  }
+}
+
+moduleTestJar {
+  from('srcTest') {
+  }
+}

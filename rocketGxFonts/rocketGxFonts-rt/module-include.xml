@@ -1,0 +1,6 @@
+<!-- Module Include File -->
+
+<defs>
+  <def name="microFont" value="rocketGxFonts"/>
+  <installation noRunningStation="true"/>
+</defs>
